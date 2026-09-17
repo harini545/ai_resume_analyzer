@@ -35,17 +35,30 @@ def extract_from_pdf(file_path):
 
 
 def extract_from_docx(file_path):
-    """Extract text from a DOCX resume."""
+    """Extract text from paragraphs and tables in a DOCX resume."""
 
     document = Document(file_path)
 
-    text = ""
+    text_parts = []
 
+    # Extract normal paragraphs
     for paragraph in document.paragraphs:
-        text += paragraph.text + "\n"
+        if paragraph.text.strip():
+            text_parts.append(paragraph.text.strip())
 
-    return text
+    # Extract text from tables
+    for table in document.tables:
+        for row in table.rows:
+            row_text = []
 
+            for cell in row.cells:
+                if cell.text.strip():
+                    row_text.append(cell.text.strip())
+
+            if row_text:
+                text_parts.append(" | ".join(row_text))
+
+    return "\n".join(text_parts)
 
 def extract_resume_text(file_path):
     """Detect file type and extract resume text."""
