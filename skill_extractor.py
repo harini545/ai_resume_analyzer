@@ -11,14 +11,40 @@ SKILL_ALIASES = {
     "ml": "Machine Learning",
     "ai": "Artificial Intelligence",
     "dl": "Deep Learning",
+    "nlp": "NLP",
+    "genai": "Generative AI",
+    "gen ai": "Generative AI",
+    "llms": "LLM",
+    "llm": "LLM",
+    "rag": "RAG",
+
     "js": "JavaScript",
     "reactjs": "React",
     "react.js": "React",
     "nodejs": "Node.js",
     "node.js": "Node.js",
+
     "scikit learn": "Scikit-learn",
     "sklearn": "Scikit-learn",
     "sentence-transformers": "Sentence Transformers",
+
+    "sql": "SQL",
+    "mysql": "MySQL",
+    "postgresql": "PostgreSQL",
+
+    "rest": "REST API",
+    "restful api": "REST API",
+    "api development": "REST API",
+
+    "ds": "Data Structures",
+    "dsa": "Data Structures",
+    "data structures and algorithms": "Data Structures",
+
+    "gitlab": "Git",
+    "version control": "Git",
+
+    "aws cloud": "AWS",
+
     "grog": "Groq",
     "groq api": "Groq",
 }
