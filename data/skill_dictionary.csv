@@ -1,0 +1,48 @@
+skill,category
+Python,Programming
+Java,Programming
+C,Programming
+SQL,Database
+MySQL,Database
+HTML,Web
+CSS,Web
+JavaScript,Web
+Streamlit,Framework
+Flask,Framework
+FastAPI,Framework
+Spring Boot,Framework
+Pandas,Data
+NumPy,Data
+Excel,Data
+Statistics,Data
+Data Visualization,Data
+Scikit-learn,Machine Learning
+TensorFlow,Machine Learning
+PyTorch,Machine Learning
+Machine Learning,AI
+Deep Learning,AI
+NLP,AI
+Generative AI,AI
+RAG,AI
+LLM,AI
+Sentence Transformers,AI
+Git,Tools
+GitHub,Tools
+Linux,Tools
+Docker,Tools
+REST API,Backend
+Data Structures,Computer Science
+Algorithms,Computer Science
+AWS,Cloud
+Groq,AI
+Artificial Intelligence,AI
+React,Web
+Node.js,Backend
+REST API,Backend
+Data Structures,Computer Science
+Algorithms,Computer Science
+Problem Solving,Computer Science
+React,Web
+Node.js,Backend
+Artificial Intelligence,AI
+Groq,AI
